@@ -4,6 +4,8 @@ import { Profile } from "./models/Profile";
 import Card from "./components/Card";
 
 function App() {
+
+  //static profiles to be displayed
   const profiles: Profile[] = [
     {
       id: 1,
@@ -38,9 +40,12 @@ function App() {
     },
   ];
 
+  //main screen
   return (
     <div className="w-full min-h-screen bg-slate-100 flex justify-center items-center">
       <div className="bg-slate-200 rounded-xl p-10">
+
+        {/* Cards section */}
         <div className="flex justify-center flex-wrap gap-8">
           {profiles.map((profile: Profile) => (
             <Card

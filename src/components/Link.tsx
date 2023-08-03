@@ -13,6 +13,8 @@ const Link: React.FC<LinkProps> = ({ link }) => {
       rel="noreferrer"
     >
       View Website
+
+      {/* Arrow Forward icon */}
       <svg
         className="-mr-1 ml-2 h-4 w-4"
         fill="currentColor"
