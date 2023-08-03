@@ -15,14 +15,6 @@ function App() {
       avatar:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcK9KRJhd4ekBT7AVZA72wB1tj8Sjx_dW2BA&usqp=CAU",
     },
-    // {
-    //   id: 2,
-    //   name: "Abebe Belete",
-    //   link: "https://vercel.com/paulosned/ethio-house-marketplace",
-    //   bio: "Enthusiastic backend developer",
-    //   avatar:
-    //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHUKHc-U2iz8PU-iAI2ZI7mAHbQw_5P0MqOl5hzBYbZKTxwt4H2Itdt6lHznKxn8xm2ho&usqp=CAU",
-    // },
     {
       id: 3,
       name: "Kebede Yifraw",
